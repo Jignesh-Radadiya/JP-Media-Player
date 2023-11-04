@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/themeColor"
+    tools:context=".NowPlaying">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/backBtnNP"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="157dp"
+        android:backgroundTint="?attr/themeColor"
+        app:icon="@drawable/back_icon"
+        app:iconSize="40dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/songImgNP"
+        android:layout_width="66dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="48dp"
+        android:src="@mipmap/ic_video_player_foreground"
+        app:shapeAppearanceOverlay="@style/curved" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/nextBtnNP"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:backgroundTint="?attr/themeColor"
+        app:icon="@drawable/next_icon"
+        app:iconSize="40dp"
+        app:iconTint="@color/white" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/playPauseBtnNP"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@id/nextBtnNP"
+        android:backgroundTint="?attr/themeColor"
+        app:icon="@drawable/play_icon"
+        app:iconSize="40dp"
+        app:iconTint="@color/white" />
+
+    <TextView
+        android:id="@+id/songNameNP"
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@id/songImgNP"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/song_name"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

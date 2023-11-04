@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038903789025",
+    "project_id": "myapplication-a8d00",
+    "storage_bucket": "myapplication-a8d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038903789025:android:05c768daa29a523ed8fea0",
+        "android_client_info": {
+          "package_name": "com.jpmediaplayer.videoPlayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_bVRU_B7_4qTc5PBF70qpfDr37erp2Z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

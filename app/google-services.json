@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "911986198400",
+    "firebase_url": "https://media--player-default-rtdb.firebaseio.com",
+    "project_id": "media--player",
+    "storage_bucket": "media--player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911986198400:android:c28ba27c0ea196ae97a365",
+        "android_client_info": {
+          "package_name": "com.jpmediaplayer.videoPlayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911986198400-719aug94q836mqghvo00qob9anposoj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASq8L_NsWX4DJzTcGOEbBK7xwo6rH6-ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911986198400-719aug94q836mqghvo00qob9anposoj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
